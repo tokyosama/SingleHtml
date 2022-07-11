@@ -1,0 +1,12 @@
+
+
+%share-box{
+    position: flex;
+    width: 100%;
+    line-height:20px;
+  }
+  
+  div{
+    @extend %share-box;
+    border: 1px solid #fff;
+  }

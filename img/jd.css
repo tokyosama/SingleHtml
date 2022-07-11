@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0
+}
+li{
+    list-style: none;
+    display: list-item;
+}
+
+@media screen and (min-width:400px) {
+    body{
+        color:red
+    }
+
+}
+    
+#nav{
+    width: 100%;
+    height: 60px;
+    background-color: rosybrown;
+    position: sticky;
+    top: 0;
+}
+.nav_s_box{
+    width: 600px;
+    height: 60px;
+    background-color: aqua;
+    display: flex;
+    float: left;
+}
+
+.n_box{
+    height: 60px;
+    width: 400px;
+    background-color: antiquewhite
+}
+
+
+.sign_box{
+    float: right;
+    height: 60px;
+    width: 200px;
+    background-color: rgb(17, 52, 83);
+    position: relative;
+}
+
+
+
+
+
+/* 搜索框 */
+#search{
+    height: 160px;
+    background-color: bisque;
+
+
+}
+.s_box{
+    height: 160px;
+    background-color: aliceblue
+}
+
+
+     /* 111三者相同属性框 */
+#search,#circle,#goods{
+    display: flex;
+    justify-content: center;
+}
+.s_box,.c_box,.g_box{
+    width: 1000px;
+}
+
+
+/* 轮播图框 */
+#circle{
+    height: 400px;
+    background-color: aquamarine;
+   
+}
+.c_box{
+    height: 400px;
+    background-color: rgb(49, 68, 85)
+}
+
+
+
+
+/* 商品框 */
+#goods{
+    min-height: 1000px;
+    background-color: aqua;
+  
+}
+.g_box{
+    min-height: 1000px;
+    background-color: rgb(197, 156, 42)
+}
